@@ -2,7 +2,7 @@ import requests
 
 
 def obter_previsao_do_tempo(uf):
-    url = f"https://api.hgbrasil.com/weather?format=json-cors&key=15065193&city_name={uf}"  # Substitua "seu_api_key" pelo seu token da HG Brasil
+    url = f"https://api.hgbrasil.com/weather?format=json-cors&key="seu_api_key"city_name={uf}"  # Substitua "seu_api_key" pelo seu token da HG Brasil
     response = requests.get(url)
     
     if response.status_code == 200:
